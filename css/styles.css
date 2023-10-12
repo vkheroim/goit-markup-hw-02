@@ -26,14 +26,15 @@ h3 {
   color: #2e2f42;
 }
 
-h2 {
+.section-header {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
-h3 {
+.section-item-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -44,24 +45,37 @@ h3 {
   text-transform: uppercase;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
-}
-
-.logo-link span {
   color: #4d5ae5;
 }
 
-.logo-link .logo-link-footer {
-  color: #f4f4fd;
+.logo-link span {
+  color: #2e2f42;
 }
 
 .section-nav {
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.section-nav-link {
+  font-weight: 500;
+}
+
+.section-nav-link:hover,
+.section-nav-link:focus {
+  color: #404bbf;
+}
+
+.communication-info {
+  font-style: normal;
+}
+
+.communication-info li:hover,
+.communication-info li:focus {
+  color: #404bbf;
 }
 
 .section-hero {
@@ -74,6 +88,7 @@ h3 {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .main-title span {
@@ -87,6 +102,13 @@ h3 {
   background-color: #4d5ae5;
   text-transform: capitalize;
   font-style: normal;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .hidden-title {
@@ -98,6 +120,14 @@ h3 {
   text-transform: capitalize;
 }
 
+.section-team-item {
+  background-color: #ffffff;
+}
+
+.section-team-text {
+  font-size: 16px;
+}
+
 .section-portfolio {
   text-transform: capitalize;
 }
@@ -106,5 +136,13 @@ h3 {
   background-color: #2e2f42;
 }
 .section-footer p {
+  color: #f4f4fd;
+}
+
+.footer-logo-link {
+  color: #4d5ae5;
+}
+
+.footer-logo-link span {
   color: #f4f4fd;
 }
