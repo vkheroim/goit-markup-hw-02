@@ -67,8 +67,8 @@ h3 {
   font-style: normal;
 }
 
-.communication-info li:hover,
-.communication-info li:focus {
+.communication-link:focus,
+.communication-info:hover {
   color: #404bbf;
 }
 
@@ -144,13 +144,6 @@ h3 {
 /* SECTION 4 */
 .section-portfolio {
   text-transform: capitalize;
-}
-
-.section-portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 /* FOOTER */
