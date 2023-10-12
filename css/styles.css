@@ -1,3 +1,4 @@
+/* General rules */
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -26,21 +27,7 @@ h3 {
   color: #2e2f42;
 }
 
-.section-header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-.section-item-header {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
+/* HEADER */
 .logo-link {
   text-transform: uppercase;
   font-size: 18px;
@@ -49,6 +36,13 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+}
+
+.section-item-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .logo-link span {
@@ -78,8 +72,18 @@ h3 {
   color: #404bbf;
 }
 
+/* SECTION 1 */
+
 .section-hero {
   background-color: #2e2f42;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .main-title {
@@ -111,10 +115,19 @@ h3 {
   background-color: #404bbf;
 }
 
+/* SECTION 2 */
 .hidden-title {
   visibility: hidden;
 }
 
+.section-tactic-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* SECTION 3 */
 .section-team {
   background-color: #f4f4fd;
   text-transform: capitalize;
@@ -128,15 +141,21 @@ h3 {
   font-size: 16px;
 }
 
+/* SECTION 4 */
 .section-portfolio {
   text-transform: capitalize;
 }
 
+.section-portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/* FOOTER */
 .section-footer {
   background-color: #2e2f42;
-}
-.section-footer p {
-  color: #f4f4fd;
 }
 
 .footer-logo-link {
@@ -144,5 +163,9 @@ h3 {
 }
 
 .footer-logo-link span {
+  color: #f4f4fd;
+}
+
+.footer-text {
   color: #f4f4fd;
 }
